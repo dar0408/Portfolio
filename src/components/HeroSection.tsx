@@ -23,33 +23,37 @@ const HeroSection = () => {
       </p>
 
       <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
-        {/* GitHub */}
-        <a
-          href="https://github.com/dar0408"
-          className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
-        >
-          <Github className="w-6 h-6 group-hover:text-nebulaPink transition-colors" />
-          <div className="absolute inset-0 rounded-full bg-nebulaPink/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-        </a>
+        {/* Resume */}
+<a
+  href="/Darpan_Resume.pdf"
+  download
+  className="group relative flex flex-col items-center p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
+>
+  <Download className="w-6 h-6 group-hover:text-emerald-500 transition-colors" />
+  <div className="absolute inset-0 rounded-full bg-emerald-500/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+  <span className="text-xs text-starWhite mt-1 group-hover:text-emerald-500 transition-colors">Resume</span>
+</a>
 
-        {/* LinkedIn */}
-        <a
-          href="https://www.linkedin.com/in/darpan-salgotra-87b101210/"
-          className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
-        >
-          <Linkedin className="w-6 h-6 group-hover:text-cosmicBlue transition-colors" />
-          <div className="absolute inset-0 rounded-full bg-cosmicBlue/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-        </a>
+{/* GitHub */}
+<a
+  href="https://github.com/dar0408"
+  className="group relative flex flex-col items-center p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
+>
+  <Github className="w-6 h-6 group-hover:text-nebulaPink transition-colors" />
+  <div className="absolute inset-0 rounded-full bg-nebulaPink/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+  <span className="text-xs text-starWhite mt-1 group-hover:text-nebulaPink transition-colors">GitHub</span>
+</a>
 
-        {/* Resume Download Icon */}
-        <a
-          href="/Darpan_Resume.pdf"
-          download
-          className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
-        >
-          <Download className="w-6 h-6 group-hover:text-emerald-500 transition-colors" />
-          <div className="absolute inset-0 rounded-full bg-emerald-500/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-        </a>
+{/* LinkedIn */}
+<a
+  href="https://www.linkedin.com/in/darpan-salgotra-87b101210/"
+  className="group relative flex flex-col items-center p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
+>
+  <Linkedin className="w-6 h-6 group-hover:text-cosmicBlue transition-colors" />
+  <div className="absolute inset-0 rounded-full bg-cosmicBlue/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+  <span className="text-xs text-starWhite mt-1 group-hover:text-cosmicBlue transition-colors">LinkedIn</span>
+</a>
+
       </div>
 
       <div className="mt-12 animate-bounce-slow">

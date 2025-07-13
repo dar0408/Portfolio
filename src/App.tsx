@@ -122,23 +122,25 @@ function App() {
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       
-      {/* Book Partner Portal */}
-      <ProjectCard
-        title="Book Partner Portal"
-        description="A full-stack publishing management system designed for authors and publishers to collaboratively manage and submit book proposals. Built using Spring Boot and Thymeleaf, it offers secure authentication, role-based access (author/publisher), dynamic form handling, review workflows, and RESTful APIs. The platform streamlines book onboarding from submission to approval while maintaining clear communication between both roles."
-        image="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80"
-        tags={['Spring Boot', 'Thymeleaf', 'MySQL', 'JWT']}
-        liveLink="#" // Replace with live link
-        codeLink="https://github.com/dar0408/book-partner-portal/tree/main/backend"
-      />
+      
 
       {/* Candidate Onboarding System */}
       <ProjectCard
         title="Candidate Onboarding System"
         description="An enterprise-grade backend solution that automates the onboarding process of new candidates. It includes modules for candidate data management, status tracking, resume uploads, and email notifications. The system uses asynchronous messaging with RabbitMQ for email processing, CI/CD with Jenkins, and a robust Spring Boot backend built with DTOs, JPA, and layered architecture."
         image="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80"
-        tags={['Spring Boot', 'RabbitMQ', 'JPA', 'Jenkins', 'Spring Mail']}
+        tags={['Spring Boot', 'MySQL/Redis', 'Docker', 'Spring Mail', 'Kafka']}
         codeLink="https://github.com/dar0408/onBoardingSystem/tree/main/onboarding"
+      />
+
+      {/* Book Partner Portal */}
+      <ProjectCard
+        title="Book Partner Portal"
+        description="A full-stack publishing management system designed for authors and publishers to collaboratively manage and submit book proposals. Built using Spring Boot and Thymeleaf, it offers secure authentication, role-based access (author/publisher), dynamic form handling, review workflows, and RESTful APIs. The platform streamlines book onboarding from submission to approval while maintaining clear communication between both roles."
+        image="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80"
+        tags={['Spring Boot', 'Thymeleaf', 'MySQL', 'JPA']}
+        // liveLink="#" // Replace with live link
+        codeLink="https://github.com/dar0408/book-partner-portal/tree/main/backend"
       />
 
     <ProjectCard
