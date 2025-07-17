@@ -129,7 +129,7 @@ function App() {
         title="Candidate Onboarding System"
         description="An enterprise-grade backend solution that automates the onboarding process of new candidates. It includes modules for candidate data management, status tracking, resume uploads, and email notifications. The system uses asynchronous messaging with RabbitMQ for email processing, CI/CD with Jenkins, and a robust Spring Boot backend built with DTOs, JPA, and layered architecture."
         image="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80"
-        tags={['Spring Boot', 'MySQL/Redis', 'Docker', 'Spring Mail', 'Kafka']}
+        tags={['Spring Boot', 'MySQL/Redis', 'Docker', 'Kafka','Jenkins','Swagger']}
         codeLink="https://github.com/dar0408/onBoardingSystem/tree/main/onboarding"
       />
 
