@@ -24,11 +24,6 @@ const NavBar = () => {
         <div className="flex justify-between items-center">
           {/* Logo and Image */}
           <a href="#" className="flex items-center gap-3 group relative">
-            <img
-              src="/53660.jpg" // Replace with your actual image path (e.g., public/profile.jpg)
-              alt="Logo"
-              className="w-10 h-10 rounded-full object-cover border-2 border-nebulaPink"
-            />
             <div className="text-2xl font-bold relative">
               <span className="animate-signature-draw inline-block">
                 <span className="bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 text-transparent bg-clip-text">

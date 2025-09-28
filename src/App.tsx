@@ -90,8 +90,7 @@ function App() {
           About Me
         </h2>
         <p className="text-starWhite/80 leading-relaxed">
-          I’m a results-driven backend developer with hands-on experience in building robust RESTful APIs and scalable backend systems using Java, Spring Boot, and SQL. I also work with tools like Docker, GitHub Actions, and Jenkins to automate workflows and implement CI/CD pipelines. I enjoy turning complex requirements into clean, efficient solutions that deliver real-world impact.
-        </p>
+I’m a backend developer with hands-on experience at Tata Communications (off-roll) and a proven track record of building Java + Spring Boot REST APIs that are secure, scalable, and production-ready. I help businesses automate workflows, integrate systems, and ship backends that just work.        </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="group bg-deepSpace/50 border border-nebulaPink/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
             <User className="w-6 h-6 mb-2 text-nebulaPink group-hover:animate-pulse" />
@@ -284,7 +283,7 @@ function App() {
                 </a>
                 
                 <a
-                  href="mailto:darpansalgotra2004@gmail.com"
+                  href="mailto:Darpan.Salgotra@outlook.com"
                   className="text-starWhite/70 hover:text-emerald-500 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
@@ -331,7 +330,7 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
               <p className="text-starWhite/70 mb-2">
-                Email: darpansalgotra2004@gmail.com
+                Email: Darpan.Salgotra@outlook.com
               </p>
             </div>
           </div>

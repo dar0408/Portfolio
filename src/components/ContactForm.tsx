@@ -18,7 +18,7 @@ const ContactForm = () => {
 
     try {
       await emailjs.send(
-        'service_c5ekfkq',
+        'service_j2hpykx',
         'template_1mhutrf',
         {
           from_name: formData.name,
